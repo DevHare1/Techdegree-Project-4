@@ -1,85 +1,6 @@
 /* ============================================= */
-/*              Media Queries                    */
+/*              Variables                        */
 /* ============================================= */
-@media (min-width: 768px) {
-  /* line 6, ../../../../My Coding Projects/Techdegree-Project-4/scss/utilities/_media.scss */
-  .container {
-    max-width: 1400px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto; }
-  /* line 13, ../../../../My Coding Projects/Techdegree-Project-4/scss/utilities/_media.scss */
-  .centered {
-    display: block;
-    margin-left: auto;
-    margin-right: auto; }
-  /* line 19, ../../../../My Coding Projects/Techdegree-Project-4/scss/utilities/_media.scss */
-  .row {
-    flex-direction: row; }
-  /* line 23, ../../../../My Coding Projects/Techdegree-Project-4/scss/utilities/_media.scss */
-  [class^=col] {
-    display: flex;
-    justify-content: center;
-    margin-top: 0;
-    align-items: center; }
-  /* line 30, ../../../../My Coding Projects/Techdegree-Project-4/scss/utilities/_media.scss */
-  [class^=col] + [class^=col] {
-    margin-left: 10px; }
-  /* line 34, ../../../../My Coding Projects/Techdegree-Project-4/scss/utilities/_media.scss */
-  .col-1 {
-    flex-basis: 8.33%; }
-  /* line 38, ../../../../My Coding Projects/Techdegree-Project-4/scss/utilities/_media.scss */
-  .col-2 {
-    flex-basis: 16.67%; }
-  /* line 42, ../../../../My Coding Projects/Techdegree-Project-4/scss/utilities/_media.scss */
-  .col-3 {
-    flex-basis: 25.00%; }
-  /* line 46, ../../../../My Coding Projects/Techdegree-Project-4/scss/utilities/_media.scss */
-  .col-4 {
-    flex-basis: 33.33%; }
-  /* line 50, ../../../../My Coding Projects/Techdegree-Project-4/scss/utilities/_media.scss */
-  .col-5 {
-    flex-basis: 41.67%; }
-  /* line 54, ../../../../My Coding Projects/Techdegree-Project-4/scss/utilities/_media.scss */
-  .col-6 {
-    flex-basis: 50.00%; }
-  /* line 58, ../../../../My Coding Projects/Techdegree-Project-4/scss/utilities/_media.scss */
-  .col-7 {
-    flex-basis: 58.33%; }
-  /* line 62, ../../../../My Coding Projects/Techdegree-Project-4/scss/utilities/_media.scss */
-  .col-8 {
-    flex-basis: 66.67%; }
-  /* line 66, ../../../../My Coding Projects/Techdegree-Project-4/scss/utilities/_media.scss */
-  .col-9 {
-    flex-basis: 75.00%; }
-  /* line 70, ../../../../My Coding Projects/Techdegree-Project-4/scss/utilities/_media.scss */
-  .col-10 {
-    flex-basis: 83.33%; }
-  /* line 74, ../../../../My Coding Projects/Techdegree-Project-4/scss/utilities/_media.scss */
-  .col-11 {
-    flex-basis: 91.67%; }
-  /* line 78, ../../../../My Coding Projects/Techdegree-Project-4/scss/utilities/_media.scss */
-  .col-12 {
-    flex-basis: 100%; }
-  /* line 82, ../../../../My Coding Projects/Techdegree-Project-4/scss/utilities/_media.scss */
-  .nav {
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center; }
-  /* line 88, ../../../../My Coding Projects/Techdegree-Project-4/scss/utilities/_media.scss */
-  .nav-link {
-    flex-basis: 100px; }
-  /* line 92, ../../../../My Coding Projects/Techdegree-Project-4/scss/utilities/_media.scss */
-  .btn {
-    padding: 10px 30px; }
-  /* line 96, ../../../../My Coding Projects/Techdegree-Project-4/scss/utilities/_media.scss */
-  .btn + .btn {
-    margin-left: 10px; }
-  /* line 100, ../../../../My Coding Projects/Techdegree-Project-4/scss/utilities/_media.scss */
-  .logo {
-    margin-left: initial;
-    margin-right: initial; } }
-
 /* ============================================= */
 /*              Grid System                      */
 /* ============================================= */
@@ -307,6 +228,88 @@ a {
   padding-left: 20px;
   border-left: 8px solid #58e1c1;
   border-radius: 5px; }
+
+/* ============================================= */
+/*              Media Queries                    */
+/* ============================================= */
+@media (min-width: 768px) {
+  /* line 6, ../../../../My Coding Projects/Techdegree-Project-4/scss/base/_media.scss */
+  .container {
+    max-width: 1400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  /* line 13, ../../../../My Coding Projects/Techdegree-Project-4/scss/base/_media.scss */
+  .centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  /* line 19, ../../../../My Coding Projects/Techdegree-Project-4/scss/base/_media.scss */
+  .row {
+    flex-direction: row; }
+  /* line 23, ../../../../My Coding Projects/Techdegree-Project-4/scss/base/_media.scss */
+  [class^=col] {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    align-items: center; }
+  /* line 30, ../../../../My Coding Projects/Techdegree-Project-4/scss/base/_media.scss */
+  [class^=col] + [class^=col] {
+    margin-left: 10px; }
+  /* line 34, ../../../../My Coding Projects/Techdegree-Project-4/scss/base/_media.scss */
+  .col-1 {
+    flex-basis: 8.33%; }
+  /* line 38, ../../../../My Coding Projects/Techdegree-Project-4/scss/base/_media.scss */
+  .col-2 {
+    flex-basis: 16.67%; }
+  /* line 42, ../../../../My Coding Projects/Techdegree-Project-4/scss/base/_media.scss */
+  .col-3 {
+    flex-basis: 25.00%; }
+  /* line 46, ../../../../My Coding Projects/Techdegree-Project-4/scss/base/_media.scss */
+  .col-4 {
+    flex-basis: 33.33%; }
+  /* line 50, ../../../../My Coding Projects/Techdegree-Project-4/scss/base/_media.scss */
+  .col-5 {
+    flex-basis: 41.67%; }
+  /* line 54, ../../../../My Coding Projects/Techdegree-Project-4/scss/base/_media.scss */
+  .col-6 {
+    flex-basis: 50.00%; }
+  /* line 58, ../../../../My Coding Projects/Techdegree-Project-4/scss/base/_media.scss */
+  .col-7 {
+    flex-basis: 58.33%; }
+  /* line 62, ../../../../My Coding Projects/Techdegree-Project-4/scss/base/_media.scss */
+  .col-8 {
+    flex-basis: 66.67%; }
+  /* line 66, ../../../../My Coding Projects/Techdegree-Project-4/scss/base/_media.scss */
+  .col-9 {
+    flex-basis: 75.00%; }
+  /* line 70, ../../../../My Coding Projects/Techdegree-Project-4/scss/base/_media.scss */
+  .col-10 {
+    flex-basis: 83.33%; }
+  /* line 74, ../../../../My Coding Projects/Techdegree-Project-4/scss/base/_media.scss */
+  .col-11 {
+    flex-basis: 91.67%; }
+  /* line 78, ../../../../My Coding Projects/Techdegree-Project-4/scss/base/_media.scss */
+  .col-12 {
+    flex-basis: 100%; }
+  /* line 82, ../../../../My Coding Projects/Techdegree-Project-4/scss/base/_media.scss */
+  .nav {
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center; }
+  /* line 88, ../../../../My Coding Projects/Techdegree-Project-4/scss/base/_media.scss */
+  .nav-link {
+    flex-basis: 100px; }
+  /* line 92, ../../../../My Coding Projects/Techdegree-Project-4/scss/base/_media.scss */
+  .btn {
+    padding: 10px 30px; }
+  /* line 96, ../../../../My Coding Projects/Techdegree-Project-4/scss/base/_media.scss */
+  .btn + .btn {
+    margin-left: 10px; }
+  /* line 100, ../../../../My Coding Projects/Techdegree-Project-4/scss/base/_media.scss */
+  .logo {
+    margin-left: initial;
+    margin-right: initial; } }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
